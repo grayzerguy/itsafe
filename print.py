@@ -1,7 +1,8 @@
-print('hello')
+banner = "Wolcome to FTP Server"
+banner = banner.upper()
+print(banner.upper())
+print(banner.lower())
+print(banner.replace('FTP', 'SSH'))
+print(banner.rfind('FTP'))
 
-a = 'aaaaasss'
-print(a)
 
-for i in range(5):
-  print (i*2)
